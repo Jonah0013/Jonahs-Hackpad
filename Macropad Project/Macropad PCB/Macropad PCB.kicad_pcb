@@ -37,6 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(grid_origin 116.5 39.45)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -388,7 +389,7 @@
 		(property "Reference" "D1"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "3aec836d-775f-4d52-b3df-2647c62c44c3")
+			(uuid "2380e370-cf1d-4667-b618-079651cdf137")
 			(effects
 				(font
 					(size 1 1)
@@ -399,7 +400,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "b288e7c4-8a40-4df1-b75d-5932e066beb5")
+			(uuid "4e983bea-2a52-4d7d-bd05-a2d0eb82f244")
 			(effects
 				(font
 					(size 1 1)
@@ -412,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c75e95ea-790c-4199-9a6a-140e9b0fab44")
+			(uuid "7ca684b9-359d-40be-92e9-e4cda287f8ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +426,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23c71204-47f0-4719-bdfe-3dced93b78a2")
+			(uuid "37154603-f06d-47b1-9553-daf96d7ba40f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,13 +1293,13 @@
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
 		(uuid "717dac57-76c3-4545-88d1-eb7b9d747074")
-		(at 110.65 50.975)
+		(at 111.1 51.6)
 		(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 		(tags "LED RGB NeoPixel Mini PLCC-4 3535")
 		(property "Reference" "D2"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "df4e36cd-8d11-4491-9bb8-c0526488ca14")
+			(uuid "3ec1277c-43fa-4dc2-bffa-b5dfa74ae667")
 			(effects
 				(font
 					(size 1 1)
@@ -1309,7 +1310,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "4aea9ea2-3fd2-4245-ac48-f4a28c4350b4")
+			(uuid "f673e318-c984-4764-8d2a-5331b7dac370")
 			(effects
 				(font
 					(size 1 1)
@@ -1322,7 +1323,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f29b4c13-3f60-4133-bb10-3143f0c76eaf")
+			(uuid "aa7e0702-0a80-4749-afc4-e01473acc99a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1336,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f174d5ac-c906-45a6-ab15-d649db09c182")
+			(uuid "4e3e9fb7-9922-455b-a2ba-64c43a6fe5ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,14 +2479,6 @@
 		(uuid "5f7f2d94-9ff1-466c-a66c-ee5ce886716a")
 	)
 	(segment
-		(start 112.4 50.1)
-		(end 112.4 44.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "81ae87d0-5d36-4c39-a507-bfaaa39025b9")
-	)
-	(segment
 		(start 112.4 44.4)
 		(end 110.38625 42.38625)
 		(width 0.2)
@@ -2532,14 +2525,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "75706d29-a85e-4694-b8cb-5f9a89684b6d")
-	)
-	(segment
-		(start 108.9 51.85)
-		(end 108.9 64.7725)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "8d3156f2-7433-4aef-be2f-7cfb275492ee")
 	)
 	(segment
 		(start 105.67625 44.92625)
@@ -2590,36 +2575,12 @@
 		(uuid "dbcc2569-9cb5-459c-a55d-9b4b21abea89")
 	)
 	(segment
-		(start 108.9 51.85)
-		(end 106.75 49.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "dbe4b91b-21a3-42d5-b31f-1307236b4e66")
-	)
-	(segment
 		(start 88.265 66.3575)
 		(end 88.265 85.4075)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "e7e5be0e-0662-4176-9831-0854e0cc9050")
-	)
-	(segment
-		(start 114.1 51.85)
-		(end 112.4 51.85)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "08569d08-44da-4692-96f9-35462b7e8e2b")
-	)
-	(segment
-		(start 114.75 52.25)
-		(end 114.5 52.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "4b6485fa-f79e-4af3-b5b7-ccf6c92e6866")
 	)
 	(segment
 		(start 83.75 40.75)
@@ -2630,28 +2591,12 @@
 		(uuid "7a579fff-0e76-4e1c-9df3-88d629502508")
 	)
 	(segment
-		(start 114.5 52.25)
-		(end 114.1 51.85)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "972fa72b-2481-484d-bead-7cde42533d2c")
-	)
-	(segment
 		(start 77.15 50.725)
 		(end 77.15 47.35)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "98406c6a-dc5d-43ad-88fd-82a724071a66")
-	)
-	(segment
-		(start 114.75 45.5)
-		(end 114.75 52.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "9ccb9056-669f-48e8-97fc-c508db452468")
 	)
 	(segment
 		(start 110 40.75)
