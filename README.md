@@ -13,7 +13,8 @@ This is my case I made an angled wedge at the bottom of the case to make it sit 
 ![alt text](image-3.png)
 
 
-My super cool 3D PCB board
+My super cool 3D PCB board with 3d models
+
 ![alt text](image.png)
 
 
