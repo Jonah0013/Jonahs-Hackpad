@@ -22,3 +22,5 @@ I will be useing:
 --> 2x SK6812 MINI-E LED's
 
 --> 4x MX-Style switches
+
+--> 4x Keycaps
