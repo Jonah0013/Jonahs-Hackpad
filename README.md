@@ -9,7 +9,7 @@ This is my PCB i made everything as compact as posible so it fits nicely on my d
 ![alt text](image-1.png)
 
 
-This is my case I made an angled wedge at the bottom of the case to make it sit ata an angle for easyer key pressing
+This is my case I made an angled wedge at the bottom of the case to make it sit at an angle for easyer key pressing
 ![alt text](image-3.png)
 
 
