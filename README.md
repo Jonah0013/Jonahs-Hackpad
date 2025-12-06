@@ -1,7 +1,7 @@
 # Jonahs-Hackpad
 
 
-This is my schamatic i tried to lay everything out neatly so it is easy to make the wire conections
+This is my schamatic i tried to lay everything out neatly so it is easy to make the wire conections neater
 ![alt text](image-2.png)
 
 
