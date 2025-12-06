@@ -1241,6 +1241,18 @@
 		)
 	)
 	(junction
+		(at 62.23 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05475357-8e71-4d88-8367-5d58bfa029b2")
+	)
+	(junction
+		(at 62.23 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70632a24-6d75-440f-b842-62265bb2470f")
+	)
+	(junction
 		(at 62.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1268,7 +1280,17 @@
 		(at 62.23 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0870291-78f0-480d-8971-e90375a5d175")
+		(uuid "ef13ab0d-cf09-470c-9fd8-a99af61ab1d3")
+	)
+	(wire
+		(pts
+			(xy 72.39 140.97) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0848a4ef-30db-42b0-b55a-d16f6f0ad546")
 	)
 	(wire
 		(pts
@@ -1279,6 +1301,16 @@
 			(type default)
 		)
 		(uuid "087681bb-1146-4c74-b0c1-b260e6453393")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e801b9-7c2a-4ad2-89a2-3b391f1b9989")
 	)
 	(wire
 		(pts
@@ -1322,6 +1354,36 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 129.54) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3217591d-0742-4960-b9b4-ad7842edda52")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4243fedc-4cec-45bb-ac06-be6950cac61f")
+	)
+	(wire
+		(pts
+			(xy 87.63 140.97) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44841ba0-ecfa-4852-b9a0-3f8d11c79c91")
+	)
+	(wire
+		(pts
 			(xy 78.74 106.68) (xy 78.74 116.84)
 		)
 		(stroke
@@ -1352,6 +1414,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 140.97) (xy 62.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1b2a47-6126-4287-bfbc-e9616ab671cc")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72823f59-05a1-42d9-b94e-681fb24b340d")
+	)
+	(wire
+		(pts
 			(xy 88.9 67.31) (xy 115.57 67.31)
 		)
 		(stroke
@@ -1379,6 +1461,16 @@
 			(type default)
 		)
 		(uuid "81ee1870-b479-4189-9c12-52597ef72c36")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cec3c48-8163-4522-b852-c1e2c22ad74a")
 	)
 	(wire
 		(pts
@@ -1439,16 +1531,6 @@
 			(type default)
 		)
 		(uuid "c88f2c95-638b-4fd2-92e9-749d94af7935")
-	)
-	(wire
-		(pts
-			(xy 62.23 118.11) (xy 62.23 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d997d406-f3b8-426a-b332-e062e5cd59b4")
 	)
 	(wire
 		(pts
@@ -1639,6 +1721,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d898648-6cd1-44e4-8703-6b1e3ab6c912")
+		(property "Reference" "SW5"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f997f97c-fa9b-49f1-b20d-7e5df0c1240c")
+		)
+		(pin "1"
+			(uuid "de8e9ee7-e26e-4bca-bd35-34cf36f13a85")
+		)
+		(instances
+			(project "Macropad PCB"
+				(path "/1d97769e-5dff-4c5b-8ab0-fdfe26e329d4"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 67.31 0)
 		(unit 1)
@@ -1766,6 +1916,74 @@
 			(project "Macropad PCB"
 				(path "/1d97769e-5dff-4c5b-8ab0-fdfe26e329d4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e950f1-0edf-40c9-8b65-b68224d8d0f6")
+		(property "Reference" "SW6"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9b8f6f2-17fd-47d7-9ab8-97f31ef37eba")
+		)
+		(pin "1"
+			(uuid "9630dd18-be40-4541-a9b3-efb1a76c7368")
+		)
+		(instances
+			(project "Macropad PCB"
+				(path "/1d97769e-5dff-4c5b-8ab0-fdfe26e329d4"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 124.46 0)
+		(at 62.23 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2059,7 +2277,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fa5e911-b054-45db-b6f1-c0c5f01e1b10")
 		(property "Reference" "#PWR01"
-			(at 62.23 130.81 0)
+			(at 62.23 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 129.54 0)
+			(at 62.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 124.46 0)
+			(at 62.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 124.46 0)
+			(at 62.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 124.46 0)
+			(at 62.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

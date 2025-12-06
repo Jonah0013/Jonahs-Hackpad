@@ -37,7 +37,7 @@ def flash_key_led():
     rgb.show()
 
 # --- KEY PINS ---
-PINS = [board.D3, board.D4, board.D2, board.D1]
+PINS = [board.D3, board.D4, board.D2, board.D1, board.D7, board.D0]
 
 keyboard.matrix = KeysScanner(
     pins=PINS,
@@ -51,6 +51,8 @@ keyboard.keymap = [
         KC.Macro(Press(KC.LCTRL), Tap(KC.V), Release(KC.LCTRL)),
         KC.Macro(Press(KC.LCTRL), Tap(KC.Z), Release(KC.LCTRL)),
         KC.Macro(Press(KC.LCTRL), Tap(KC.S), Release(KC.LCTRL)),
+        KC.Macro("jonahjgregory@gmail.com"),
+        KC.Macro(Press(KC.LCTRL), Press(KC.LSHIFT), Press(KC.ESC), Release(KC.ESC), Release(KC.LSHIFT), Release(KC.LCTRL)),
     ]
 ]
 
