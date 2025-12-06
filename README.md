@@ -18,5 +18,7 @@ In the code I have coded the 2 LED's one will be constantly green as a power ind
 I will be useing:
 
 --> 1x Seeed XIAO RP2040
+
 --> 2x SK6812 MINI-E LED's
+
 --> 4x MX-Style switches
