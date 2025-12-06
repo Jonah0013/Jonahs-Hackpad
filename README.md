@@ -1,8 +1,14 @@
 # Jonahs-Hackpad
+
+
 This is my schamatic i tried to lay everything out neatly so it is easy to make the wire conections
 ![alt text](image-1.png)
+
+
 This is my PCB i made everything as compact as posible so it fits nicely on my desk
 ![alt text](image.png)
+
+
 This is my case I made an angled wedge at the bottom of the case to make it sit ata an angle for easyer key pressing
 ![alt text](image-2.png)
 
