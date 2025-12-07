@@ -17,6 +17,10 @@ My super cool 3D PCB board with 3d models
 
 ![alt text](image.png)
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 
 In the code I have coded the 2 LED's one will be constantly green as a power indcator and the other flashes red for 100ms every time a key is pressed mainly because i think it is cool but it will also help me debud why its not working in the case that it doesent work.
 
